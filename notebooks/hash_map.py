@@ -6,7 +6,7 @@ class Entry:
 class Mapping:
     def __init__(self):
         self._len = 0
-        self._n_buckets = 100
+        self._n_buckets = 1000
         self._L = [[] for i in range(self._n_buckets)]
 
     def rehash(self):
