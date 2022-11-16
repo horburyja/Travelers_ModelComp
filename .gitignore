@@ -3,3 +3,4 @@ venv/
 
 # byte-compiled / optimized / DLL files
 notebooks/__pycache__
+notebooks/test.ipynb
